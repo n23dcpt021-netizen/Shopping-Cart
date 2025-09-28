@@ -30,18 +30,20 @@ Mục tiêu là áp dụng quy trình phát triển phần mềm, từ **phân t
 
   - Actor: Admin, User.
   - Use cases: - Admin: Thêm SP, Sửa SP, Xóa SP. - User: Tìm kiếm SP, Thêm SP vào giỏ, Xóa SP khỏi giỏ, Thay đổi số lượng.
-    ![USE CASE](Picture1.png)
+    ![USE CASE](Picture/Picture1.png)
 
 - **Sequence Diagram**:
 
   - Product: id:int, name:String, price:BigDecimal, stock:int
   - CartItem: product:Product, quantity:int
   - Cart: items:List<CartItem>; addItem(product, qty), updateQuantity(product, qty), removeItem(product), clear(), getTotal( ):BigDecimal - User: userId:int, name:String, cart:Cart; getCart():Cart, searchProduct(keyword:String):List<Product> - Admin (extends User): addProduct(p:Product), updateProduct(p:Product), deleteProduct(p:Product)
-    ![Sequence](Picture2.png)
+    ![Sequence](Picture/Picture2.png)
 
 - **ERD (Entity Relationship Diagram)**:
-  - USED: ![ERD-USED](Picture3.png)
-  - ADMIN: ![ERD-ADMIN](Picture4.png)
+  - USED:
+    ![ERD-USED](Picture/Picture3.png)
+  - ADMIN:
+    ![ERD-ADMIN](Picture/Picture4.png)
 
 ## Công nghệ sử dụng
 
