@@ -30,7 +30,7 @@ Mục tiêu là áp dụng quy trình phát triển phần mềm, từ **phân t
 
   - Actor: Admin, User.
   - Use cases: - Admin: Thêm SP, Sửa SP, Xóa SP. - User: Tìm kiếm SP, Thêm SP vào giỏ, Xóa SP khỏi giỏ, Thay đổi số lượng.
-    ![Use Case](Picture1-1.png)
+    ![USE CASE](Picture1.png)
 
 - **Sequence Diagram**:
 
