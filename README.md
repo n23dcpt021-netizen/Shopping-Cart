@@ -55,4 +55,4 @@ Mục tiêu là áp dụng quy trình phát triển phần mềm, từ **phân t
 
 ## Tổ chức và Quản lý dự án trên Jira
 
-[Jira](https://student-team-d23cqpt01.atlassian.net/jira/software/projects/SC/boards/100/backlog)
+Truy cập vào đường link để tổ chức và quản lý dự án trên Jira: [Jira](https://student-team-d23cqpt01.atlassian.net/jira/software/projects/SC/boards/100/backlog)
