@@ -1,0 +1,21 @@
+Hello, my name is Hoang Minh Hanh - Multimedia Technology student - Posts and Telecommunications Institute of Technology
+- Class: D23CQPT01-N
+- ID: N23DCPT021
+- Email : n23dcpt021@student.ptithcm.edu.vn
+
+🔹 Interests:
+- Web and mobile application development.  
+- Graphic design and Animation Design.
+- User Interface/User Experience.
+
+🔹 Skills:
+- Programming languages: Python, Java, JavaScript, SQL.  
+- Tools: Git, Visual Studio Code, Jira, MySQL, Blender, Figma, Photoshop, Illustrator,...    
+- Development process: Agile - Scrum, Waterfall. 
+
+🔹 Goals:
+- Become a professional graphic designer.
+- Contribute to real software design projects.
+- Continuously learn about new technologies and trends in the graphic design and IT industry.
+
+Thank you for reading my introduction.
