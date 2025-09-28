@@ -40,10 +40,8 @@ Mục tiêu là áp dụng quy trình phát triển phần mềm, từ **phân t
     ![Sequence](Picture2.png)
 
 - **ERD (Entity Relationship Diagram)**:
-  - USED:
-    ![ERD-USED](Picture3.png)
-  - ADMIN:
-    ![ERD-ADMIN](Picture4.png)
+  - USED: ![ERD-USED](Picture3.png)
+  - ADMIN: ![ERD-ADMIN](Picture4.png)
 
 ## Công nghệ sử dụng
 
