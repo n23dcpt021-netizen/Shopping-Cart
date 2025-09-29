@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Shopping Cart Demo</title>
+    <link rel="stylesheet" href="style.css" />
+  <header class="header">
+  <div class="logo">Shopping Cart</div>
+
+  <div class="header-right">
+    <!-- Navbar nhỏ nằm trên -->
+    <nav class="navbar">
+      <a href="#">Home</a>
+      <a href="#">Products</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+    </nav>
+
+    <!-- Thanh search nằm giữa -->
+    <div class="search-box">
+      <input type="text" placeholder="Search for products...">
+      <button>🔍</button>
+    </div>
+  </div>
+
+  <!-- User nằm góc phải -->
+  <div class="user">👤 User</div>
+</header>
+
+<!-- Main layout -->
+  <main class="main-layout">
+    <!-- Navigation bên trái -->
+    <aside class="navigation">
+      <h3>Danh mục sản phẩm</h3>
+      <ul>
+        <li><a href="#">Khuyến mãi hot</a></li>
+        <li><a href="#">Trái cây nhập khẩu</a></li>
+        <li><a href="#">Trái cây Việt Nam</a></li>
+        <li><a href="#">Trái cây cắt sẵn</a></li>
+        <li><a href="#">Rau củ & nấm</a></li>
+        <li><a href="#">Thực phẩm hữu cơ</a></li>
+      </ul>
+    </aside>
+
+    <!-- Content chính -->
+    <section class="content">
+      <h2>🍎 Sản phẩm trái cây</h2>
+    <div class="products">
+      <div class="product-card">
+        <img src="Hinhanh/TaoMy.jpg" alt="Táo Mỹ">
+        <h3>Táo Mỹ</h3>
+        <p class="price">59,000đ</p>
+        <button onclick="addToCart('Táo Mỹ', 59000)">Thêm vào giỏ</button>
+      </div>
+
+      <div class="product-card">
+        <img src="Hinhanh/ChuoiLaba.jpg" alt="Chuối Việt Nam">
+        <h3>Chuối Việt Nam</h3>
+        <p class="price">25,000đ</p>
+        <button onclick="addToCart('Chuối Việt Nam', 25000)">Thêm vào giỏ</button>
+      </div>
+
+      <div class="product-card">
+        <img src="Hinhanh/CamUc.jpg" alt="Cam Úc">
+        <h3>Cam Úc</h3>
+        <p class="price">79,000đ</p>
+        <button onclick="addToCart('Cam Úc', 79000)">Thêm vào giỏ</button>
+      </div>
+
+      <div class="product-card">
+        <img src="Hinhanh/Xoaicathoaloc.jpg" alt="Xoài Cát Hòa Lộc">
+        <h3>Xoài Cát Hòa Lộc</h3>
+        <p class="price">45,000đ</p>
+        <button onclick="addToCart('Xoài Cát Hòa Lộc', 45000)">Thêm vào giỏ</button>
+      </div>
+
+      <div class="product-card">
+        <img src="Hinhanh/NhoMy.jpg" alt="Nho Mỹ">
+        <h3>Nho Mỹ</h3>
+        <p class="price">120,000đ</p>
+        <button onclick="addToCart('Nho Mỹ', 120000)">Thêm vào giỏ</button>
+      </div>
+
+      <div class="product-card">
+        <img src="Hinhanh/Dua.jpg" alt="Dứa">
+        <h3>Dứa</h3>
+        <p class="price">20,000đ</p>
+        <button onclick="addToCart('Dứa', 20000)">Thêm vào giỏ</button>
+      </div>
+
+      <div class="product-card">
+        <img src="Hinhanh/Duahau.jpg" alt="Dưa Hấu">
+        <h3>Dưa Hấu</h3>
+        <p class="price">35,000đ</p>
+        <button onclick="addToCart('Dưa Hấu', 35000)">Thêm vào giỏ</button>
+      </div>
+
+      <div class="product-card">
+        <img src="Hinhanh/LeHanQuoc.jpg" alt="Lê Hàn Quốc">
+        <h3>Lê Hàn Quốc</h3>
+        <p class="price">55,000đ</p>
+        <button onclick="addToCart('Lê Hàn Quốc', 55000)">Thêm vào giỏ</button>
+      </div>
+
+      <div class="product-card">
+        <img src="Hinhanh/kiwivang-3.jpg" alt="Kiwi New Zealand">
+        <h3>Kiwi New Zealand</h3>
+        <p class="price">65,000đ</p>
+        <button onclick="addToCart('Kiwi New Zealand', 65000)">Thêm vào giỏ</button>
+      </div>
+
+      <div class="product-card">
+        <img src="Hinhanh/Dautay.jpg" alt="Dâu Tây Đà Lạt">
+        <h3>Dâu Tây Đà Lạt</h3>
+        <p class="price">85,000đ</p>
+        <button onclick="addToCart('Dâu Tây Đà Lạt', 85000)">Thêm vào giỏ</button>
+      </div>
+    </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <h3>🛒 Giỏ hàng</h3>
+    <table id="cartTable">
+      <thead>
+        <tr>
+          <th>Sản phẩm</th>
+          <th>Giá (đ)</th>
+          <th>Số lượng</th>
+          <th>Tổng (đ)</th>
+          <th>Hành động</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+    <h3 id="grandTotal">Tổng cộng: 0đ</h3>
+    <button class="checkout-btn">Thanh Toán</button>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
