@@ -1,0 +1,25 @@
+Hello, my name is Ho Thi Mai Linh - Multimedia Technology student - Posts and Telecommunications Institute of Technology
+- Class: D23CQPT01-N
+- ID: N23DCPT030
+- Email : n23dcpt030@student.ptithcm.edu.vn
+
+🔹 Interests:
+
+- Web interface design
+- 2D graphic design
+
+🔹 Skills:
+
+- Programming languages: Python, Java, JavaScript, SQL
+
+- Tools: Git, Visual Studio Code, Jira, MySQL, Blender, Figma, Photoshop, Illustrator, etc.
+
+- Development process: Agile - Scrum, Waterfall
+
+🔹 Goals:
+
+- Become a professional designer and specialize in design
+
+- Contribute to real software design projects
+
+Thank you for reading my introduction.
